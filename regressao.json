@@ -1,0 +1,1 @@
+"{\n  \"type\": \"bar\",\n  \"data\": {\n    \"labels\": [\"custo_campanha\", \"alcance\", \"conversao\"],\n    \"datasets\": [{\n      \"label\": \"Coeficiente\",\n      \"data\": [0.0136, 0.012, 0.0686]\n    }]\n  },\n  \"options\": {\n    \"scales\": { \"y\": { \"beginAtZero\": true } }\n  }\n}"

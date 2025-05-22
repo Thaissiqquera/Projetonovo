@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard Marketing</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Dashboard Marketing</h1>
+  </header>
+  <nav class="tabs">
+    <button data-section="clusters" class="active">Clusters</button>
+    <button data-section="campanhas">Campanhas</button>
+    <button data-section="clv">CLV</button>
+    <button data-section="regressao">Regressão</button>
+    <button data-section="tabelas">Tabelas</button>
+  </nav>
+  <main>
+    <section id="clusters" class="content active">
+      <canvas id="clusterChart"></canvas>
+      <canvas id="clusterDiagChart"></canvas>
+    </section>
+    <section id="campanhas" class="content">
+      <canvas id="campanhaChart"></canvas>
+    </section>
+    <section id="clv" class="content">
+      <canvas id="clvChart"></canvas>
+    </section>
+    <section id="regressao" class="content">
+      <canvas id="regressaoChart"></canvas>
+    </section>
+    <section id="tabelas" class="content">
+      <div class="tables-nav">
+        <button data-table="campanhas" class="active">Campanhas</button>
+        <button data-table="transacoes">Transações</button>
+      </div>
+      <div id="campanhasTable" class="table-content active"></div>
+      <div id="transacoesTable" class="table-content"></div>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

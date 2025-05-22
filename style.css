@@ -1,0 +1,15 @@
+body { font-family: sans-serif; margin: 0; padding: 0; }
+header { background: #333; color: #fff; padding: 1rem; text-align: center; }
+.tabs { display: flex; background: #f4f4f4; }
+.tabs button { flex: 1; padding: 1rem; border: none; background: #f4f4f4; cursor: pointer; }
+.tabs button.active { background: #ddd; }
+.content { display: none; padding: 1rem; }
+.content.active { display: block; }
+canvas { max-width: 100%; height: 300px; margin-bottom: 2rem; }
+.tables-nav { display: flex; margin-bottom: 1rem; }
+.tables-nav button { padding: 0.5rem 1rem; border: none; background: #f4f4f4; cursor: pointer; margin-right: 0.5rem; }
+.tables-nav button.active { background: #ddd; }
+.table-content { display: none; }
+.table-content.active { display: block; }
+table { width: 100%; border-collapse: collapse; }
+th, td { border: 1px solid #ccc; padding: 0.5rem; text-align: left; }
